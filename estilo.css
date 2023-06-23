@@ -1,0 +1,28 @@
+table{ /*Para darle estilo a la tabla*/
+    background-color: rgb(83, 92, 92);
+    color: rgb(249, 243, 250);
+    font: .7em Arial, Helvetica, sans-serif;
+    border: 5px solid #d3cece;
+    border-collapse: separate;
+    }
+caption{/*Estilo titulo de tabla*/
+    width: 480px;
+    background-color: rgb(112, 225, 233);
+    border: 5px solid #d3cece;
+    border-collapse: separate; /*para los bordes de la tabla separados*/
+    font: 2em Arial, Helvetica, sans-serif;
+}
+tr{/*Estilo  de las filas*/
+    width: 150px;
+    height: 20px;
+    border: 2px solid #d3cece;
+    margin: 2px;
+    padding: 2px;   
+}
+td{/*Estilo celdas, doy estilo a las lineas de las columnas*/
+    width: 150px;
+    height: 20px;
+    border: 1px solid #d3cece;
+    margin: 2px;
+    padding: 2px;
+}
